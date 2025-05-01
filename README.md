@@ -1,7 +1,7 @@
 # Lista de Exercícios 1 +praTi
 Lista de Exercios para entregar no Curso Dev. Full Stack Jr.
 
-Este repositório contém uma lista de exercícios de programação resolvidos em JavaScript.
+Este repositório contém uma lista de exercícios de programação resolvidos em JavaScript, parte do curso Desenvolvedor Full Stack Júnior da Mais Prati.
 
 ## Pré-requisitos
 
@@ -9,25 +9,29 @@ Para executar estes exercícios localmente, você precisará ter o [Node.js](htt
 
 ## Configuração do Ambiente
 
-1.  **Clone o repositório ou baixe os arquivos:**
-    Se você estiver usando git:
+1.  **Clone o repositório:**
+    Abra seu terminal ou Git Bash e execute o seguinte comando:
     ```bash
-    git clone <url-do-repositorio>
-    cd Lista\ de\ Exercicios\ 1
+    git clone [https://github.com/williamjmrosa/list-de-exercicios_1_mais-prati.git](https://github.com/williamjmrosa/list-de-exercicios_1_mais-prati.git)
     ```
-    Caso contrário, baixe e extraia os arquivos para um diretório de sua escolha e navegue até ele pelo terminal.
 
-2.  **Instale as dependências:**
-    No diretório do projeto (onde o arquivo `package.json` está localizado), execute o seguinte comando no seu terminal para instalar as bibliotecas necessárias (neste caso, `prompt-sync`):
+2.  **Navegue até o diretório do projeto:**
+    Após clonar, entre na pasta criada:
+    ```bash
+    cd list-de-exercicios_1_mais-prati
+    ```
+
+3.  **Instale as dependências:**
+    Dentro do diretório do projeto, execute o seguinte comando no seu terminal para instalar as bibliotecas necessárias (neste caso, `prompt-sync`):
     ```bash
     npm install
     ```
 
 ## Executando os Exercícios
 
-Cada arquivo `.js` corresponde a um exercício da lista[cite: 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]. Para executar um exercício específico, utilize o comando `node` seguido do nome do arquivo no terminal.
+Cada arquivo `.js` na raiz do projeto corresponde a um exercício da lista (ex: `exercicio1.js`, `exercicio2.js`, etc.). Para executar um exercício específico, utilize o comando `node` seguido do nome do arquivo no terminal, estando dentro da pasta do projeto.
 
-Por exemplo, para executar o `exercicio1.js`[cite: 1]:
+Por exemplo, para executar o `exercicio1.js`:
 
 ```bash
 node exercicio1.js
