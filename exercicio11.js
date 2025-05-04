@@ -6,6 +6,7 @@ const prompt = require("prompt-sync")()
 let soma = 0
 let valor
 
+console.log("Digite 5 números para calcular a soma total.")
 for(let i = 0; i < 5; i++){
     valor = Number(prompt(`Digite o ${i + 1}º número:`))
 
