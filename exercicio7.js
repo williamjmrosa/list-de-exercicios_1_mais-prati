@@ -7,8 +7,9 @@ const prompt = require("prompt-sync")()
 let quantidade = Number(prompt('Digite a quantidade de maçãs compradas:'))
 
 console.log("A quantidade de maçãs compradas foi: " + quantidade)
-
-if(quantidade < 12){
+if(quantidade < 0 || isNaN(quantidade)){
+    console.log("A quantidade digitada é inválida.")
+}else if(quantidade < 12){
     let preco = quantidade * 0.30
     console.log("O valor total da compra é: R$", preco.toFixed(2))
 }else{
