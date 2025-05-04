@@ -12,13 +12,13 @@ Para executar estes exercícios localmente, você precisará ter o [Node.js](htt
 1.  **Clone o repositório:**
     Abra seu terminal ou Git Bash e execute o seguinte comando:
     ```bash
-    git clone [https://github.com/williamjmrosa/list-de-exercicios_1_mais-prati.git](https://github.com/williamjmrosa/list-de-exercicios_1_mais-prati.git)
+    git clone https://github.com/williamjmrosa/lista-de-exercicios-1-maisprati.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
     Após clonar, entre na pasta criada:
     ```bash
-    cd list-de-exercicios_1_mais-prati
+    cd lista-de-exercicios-1-maisprati
     ```
 
 3.  **Instale as dependências:**
