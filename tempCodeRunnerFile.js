@@ -1,1 +1,0 @@
-'Digite um número inteiro:'
