@@ -14,7 +14,7 @@ let valor
 do{
     valor = Number(prompt('Digite um número decimal (0 para sair): '))
     if(valor != 0){
-        if(!isNaN(valor)){
+        if(!isNaN(valor) && valor > 0){
             soma += valor
             divisor++
         }else{
