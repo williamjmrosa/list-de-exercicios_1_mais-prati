@@ -3,25 +3,41 @@
 
 const prompt = require("prompt-sync")()
 
-console.log(" _____________________",
-            "| Escolha uma opção: |",
-            "| 1. Opção 1         |",
-            "| 2. Opção 2         |",
-            "| 3. Opção 3         |",
-            "|____________________|")
-let opcao = Number(prompt('Digite a opção desejada:'))
+let opcao
 
-switch(opcao){
-    case 1:
-        console.log("Você escolheu a opção 1.")
-        break
-    case 2:
-        console.log("Você escolheu a opção 2.")
-        break
-    case 3:
-        console.log("Você escolheu a opção 3.")
-        break
-    default:
-        console.log("Opção inválida.")
+do {
+    console.log(" _____________________",
+              "\n| Escolha uma opção: |",
+              "\n| 1 - Opção 1        |",
+              "\n| 2 - Opção 2        |",
+              "\n| 3 - Opção 3        |",
+              "\n| 0 - Sair           |",
+              "\n|____________________|")
+
+    opcao = Number(prompt('Digite a opção desejada:'))
+
+    if (opcao == 0) {
+        console.log("Saindo do programa.")
+    } else {
+        verOpcao(opcao)
+    }
+
+} while (opcao != 0)
+
+function verOpcao(opcao) {
+
+    switch (opcao) {
+        case 1:
+            console.log("Você escolheu a opção 1.")
+            break
+        case 2:
+            console.log("Você escolheu a opção 2.")
+            break
+        case 3:
+            console.log("Você escolheu a opção 3.")
+            break
+        default:
+            console.log("Opção inválida.")
+    }
+
 }
-
