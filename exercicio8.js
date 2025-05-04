@@ -10,6 +10,8 @@ if(num1 < num2){
     console.log("Os números digitados em ordem crescente foram: " + num1 + " e " + num2)
 }else if(num1 > num2){
     console.log("Os números digitados em ordem crescente foram: " + num2 + " e " + num1)
-}else{
+}else if(num1 == num2){
     console.log("Os números digitados são iguais.")
+}else{
+    console.log("Os números digitados foram inválidos.")
 }
